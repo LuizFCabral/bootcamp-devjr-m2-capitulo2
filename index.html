@@ -82,6 +82,8 @@
 				</div>
 			</div>
 		</nav>
+
+		<!--Container princ-->
 		<div
 			class="container text-center"
 			style="width: 900px; background-color: #fff"
@@ -451,11 +453,45 @@
 				class="btn btn-primary mb-3"
 				style="width: 95%"
 				onclick="calcular()"
+				data-bs-toggle="modal"
+				data-bs-target="#modal"
 			>
 				Calcular
 			</button>
 
 			<!--Modal de Informações-->
+			<div class="modal" tabindex="-1" id="modal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="tittle-compra"></h5>
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="modal"
+								aria-label="Close"
+							></button>
+						</div>
+						<div class="modal-body">
+							<p>Sequem os dados do seu pedido</p>
+							<p>O seu pedido é</p>
+							<ul id="lista"></ul>
+							<b class="preco-final" id="preco-final">
+								Preço final: R$ 0,00
+							</b>
+						</div>
+						<div class="modal-footer">
+							<button
+								type="button"
+								class="btn btn-secondary"
+								data-bs-dismiss="modal"
+							>
+								Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
 			<!--
 				<div class="info-compra" id="info-compra" hidden>
 					<div class="tittle-compra">
