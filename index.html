@@ -84,427 +84,447 @@
 		</nav>
 
 		<!--Container princ-->
-		<div
-			class="container text-center"
-			style="width: 900px; background-color: #fff"
-		>
-			<img class="img-fluid mt-3" src="./assets/home.jpg" alt="Home" />
-			<div class="row">
-				<div class="col">
-					<h2 class="mt-2">Menu - Faça A Sua Escolha</h2>
-				</div>
-			</div>
-
-			<!-- Carousel -->
-			<div class="container mt-1 d-none d-lg-block">
-				<div id="carouselExampleIndicators" class="carousel slide">
-					<div class="carousel-indicators">
-						<button
-							type="button"
-							data-bs-target="#carouselExampleIndicators"
-							data-bs-slide-to="0"
-							class="active"
-							aria-current="true"
-							aria-label="Slide 1"
-						></button>
-						<button
-							type="button"
-							data-bs-target="#carouselExampleIndicators"
-							data-bs-slide-to="1"
-							aria-label="Slide 2"
-						></button>
-						<button
-							type="button"
-							data-bs-target="#carouselExampleIndicators"
-							data-bs-slide-to="2"
-							aria-label="Slide 3"
-						></button>
-					</div>
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img
-								src="./assets/carrousel1.jpg"
-								class="d-block w-100"
-								alt="..."
-							/>
-						</div>
-						<div class="carousel-item">
-							<img
-								src="./assets/carrousel2.jpg"
-								class="d-block w-100"
-								alt="..."
-							/>
-						</div>
-						<div class="carousel-item">
-							<img
-								src="./assets/carrousel3.jpg"
-								class="d-block w-100"
-								alt="..."
-							/>
-						</div>
-					</div>
-					<button
-						class="carousel-control-prev"
-						type="button"
-						data-bs-target="#carouselExampleIndicators"
-						data-bs-slide="prev"
-					>
-						<span
-							class="carousel-control-prev-icon"
-							aria-hidden="true"
-						></span>
-						<span class="visually-hidden">Previous</span>
-					</button>
-					<button
-						class="carousel-control-next"
-						type="button"
-						data-bs-target="#carouselExampleIndicators"
-						data-bs-slide="next"
-					>
-						<span
-							class="carousel-control-next-icon"
-							aria-hidden="true"
-						></span>
-						<span class="visually-hidden">Next</span>
-					</button>
-				</div>
-			</div>
-
-			<!--Pratos Principais-->
+		<div class="row justify-content-center">
 			<div
-				class="container rounded shadow"
-				style="background-color: #f5f5f5"
+				class="text-center col-12 col-md-8"
+				style="background-color: #fff"
 			>
-				<h3 class="mt-3">Prato Principal</h3>
-				<p style="font-weight: bold">
-					Todos os pratos acompanham arroz, feijão, e a sobremesa do
-					dia.
-				</p>
-				<div class="row justify-content-evenly pb-5">
-					<div class="card shadow" style="width: 15rem">
-						<img
-							src="./assets/bife.jpg"
-							class="card-img mt-2"
-							alt="Bife com Batata"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Bife com Batata</h5>
-							<p
-								class="card-text text-success"
-								style="font-weight: bold"
-							>
-								R$ 30,00
-							</p>
-							<div class="quantity buttons_added">
-								<input
-									type="button"
-									value="-"
-									class="minus"
-								/><input
-									type="number"
-									step="1"
-									min="0"
-									max=""
-									name="quantity"
-									value="0"
-									title="Qty"
-									class="input-text qty text"
-									size="4"
-									pattern=""
-									inputmode=""
-								/><input type="button" value="+" class="plus" />
-							</div>
-						</div>
-					</div>
-					<div class="card shadow" style="width: 15rem">
-						<img
-							src="./assets/coxa.jpg"
-							class="card-img mt-2"
-							alt="Coxa de Frango"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Coxa de Frango Crocante</h5>
-							<p
-								class="card-text text-success"
-								style="font-weight: bold"
-							>
-								R$ 25,00
-							</p>
-							<div class="quantity buttons_added">
-								<input
-									type="button"
-									value="-"
-									class="minus"
-								/><input
-									type="number"
-									step="1"
-									min="0"
-									max=""
-									name="quantity"
-									value="0"
-									title="Qty"
-									class="input-text qty text"
-									size="4"
-									pattern=""
-									inputmode=""
-								/><input type="button" value="+" class="plus" />
-							</div>
-						</div>
-					</div>
-					<div class="card shadow" style="width: 15rem">
-						<img
-							src="./assets/panela.jpg"
-							class="card-img mt-2"
-							alt="Carne de Panela"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Carne de Panela</h5>
-							<p
-								class="card-text text-success"
-								style="font-weight: bold"
-							>
-								R$ 22,00
-							</p>
-							<div class="quantity buttons_added">
-								<input
-									type="button"
-									value="-"
-									class="minus"
-								/><input
-									type="number"
-									step="1"
-									min="0"
-									max=""
-									name="quantity"
-									value="0"
-									title="Qty"
-									class="input-text qty text"
-									size="4"
-									pattern=""
-									inputmode=""
-								/><input type="button" value="+" class="plus" />
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!--Acompranhamentos-->
-			<div
-				class="container rounded mt-5 shadow"
-				style="background-color: #f5f5f5"
-			>
-				<h3>Acompanhamentos</h3>
-				<p style="font-weight: bold">Porções para uma pessoa</p>
-
-				<div class="row d-flex justify-content-evenly pb-5">
-					<div class="card shadow" style="width: 15rem">
-						<img
-							src="./assets/farofa.jpg"
-							class="card-img mt-2"
-							alt="Farofa"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Farofa</h5>
-							<p
-								class="card-text text-success"
-								style="font-weight: bold"
-							>
-								R$ 10,00
-							</p>
-							<div class="quantity buttons_added">
-								<input
-									type="button"
-									value="-"
-									class="minus"
-								/><input
-									type="number"
-									step="1"
-									min="0"
-									max=""
-									name="quantity"
-									value="0"
-									title="Qty"
-									class="input-text qty text"
-									size="4"
-									pattern=""
-									inputmode=""
-								/><input type="button" value="+" class="plus" />
-							</div>
-						</div>
-					</div>
-					<div class="card shadow" style="width: 15rem">
-						<img
-							src="./assets/salad.jpg"
-							class="card-img mt-2"
-							alt="Salada"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Salada</h5>
-							<p
-								class="card-text text-success"
-								style="font-weight: bold"
-							>
-								R$ 8,00
-							</p>
-							<div class="quantity buttons_added">
-								<input
-									type="button"
-									value="-"
-									class="minus"
-								/><input
-									type="number"
-									step="1"
-									min="0"
-									max=""
-									name="quantity"
-									value="0"
-									title="Qty"
-									class="input-text qty text"
-									size="4"
-									pattern=""
-									inputmode=""
-								/><input type="button" value="+" class="plus" />
-							</div>
-						</div>
-					</div>
-					<div class="card shadow" style="width: 15rem">
-						<img
-							src="./assets/torresmo.jpg"
-							class="card-img mt-2"
-							alt="Torresmo"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Torresmo</h5>
-							<p
-								class="card-text text-success"
-								style="font-weight: bold"
-							>
-								R$ 12,00
-							</p>
-							<div class="quantity buttons_added">
-								<input
-									type="button"
-									value="-"
-									class="minus"
-								/><input
-									type="number"
-									step="1"
-									min="0"
-									max=""
-									name="quantity"
-									value="0"
-									title="Qty"
-									class="input-text qty text"
-									size="4"
-									pattern=""
-									inputmode=""
-								/><input type="button" value="+" class="plus" />
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!--Form dos dados-->
-			<div
-				class="container shadow rounded mt-5 mb-3 p-3"
-				style="background-color: #f5f5f5"
-			>
+				<img
+					class="img-fluid mt-3 d-none d-lg-block"
+					src="./assets/home.jpg"
+					alt="Home"
+				/>
 				<div class="row">
 					<div class="col">
-						<h3>Dados Pessoais</h3>
+						<div class="display-5 my-3">
+							Menu - Faça A Sua Escolha
+						</div>
 					</div>
 				</div>
 
-				<div class="row g-3 text-start">
-					<div class="col-8 offset-2 mb-2">
-						<label for="nome" class="form-label">Nome</label>
-						<input
-							type="text"
-							class="form-control"
-							id="nome"
-							placeholder="Nome"
-						/>
-					</div>
-					<div class="col-8 offset-2 mb-2">
-						<label for="telefone" class="form-label"
-							>Telefone</label
-						>
-						<input
-							type="text"
-							class="form-control"
-							id="telefone"
-							placeholder="Telefone"
-						/>
-					</div>
-					<div class="col-8 offset-2 mb-2">
-						<label for="email" class="form-label">Email</label>
-						<input
-							type="text"
-							class="form-control"
-							id="email"
-							placeholder="Email"
-						/>
-					</div>
-				</div>
-			</div>
-			<button
-				class="btn btn-primary mb-3"
-				style="width: 95%"
-				onclick="calcular()"
-				data-bs-toggle="modal"
-				data-bs-target="#modal"
-			>
-				Calcular
-			</button>
-
-			<!--Modal de Informações-->
-			<div class="modal" tabindex="-1" id="modal">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title" id="tittle-compra"></h5>
+				<!-- Carousel -->
+				<div class="container mt-1 d-none d-lg-block">
+					<div id="carouselExampleIndicators" class="carousel slide">
+						<div class="carousel-indicators">
 							<button
 								type="button"
-								class="btn-close"
-								data-bs-dismiss="modal"
-								aria-label="Close"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="0"
+								class="active"
+								aria-current="true"
+								aria-label="Slide 1"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="2"
+								aria-label="Slide 3"
 							></button>
 						</div>
-						<div class="modal-body">
-							<p>Sequem os dados do seu pedido</p>
-							<p>O seu pedido é</p>
-							<ul id="lista"></ul>
-							<b class="preco-final" id="preco-final">
-								Preço final: R$ 0,00
-							</b>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="./assets/carrousel1.jpg"
+									class="d-block w-100"
+									alt="..."
+								/>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="./assets/carrousel2.jpg"
+									class="d-block w-100"
+									alt="..."
+								/>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="./assets/carrousel3.jpg"
+									class="d-block w-100"
+									alt="..."
+								/>
+							</div>
 						</div>
-						<div class="modal-footer">
-							<button
-								type="button"
-								class="btn btn-secondary"
-								data-bs-dismiss="modal"
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+
+				<!--Pratos Principais-->
+				<div
+					class="container rounded shadow"
+					style="background-color: #f5f5f5"
+				>
+					<h3 class="mt-3">Prato Principal</h3>
+					Todos os pratos acompanham arroz, feijão, e a sobremesa do
+					dia.
+					<p style="font-weight: bold"></p>
+					<div class="row justify-content-evenly pb-5">
+						<div class="card shadow" style="width: 15rem">
+							<img
+								src="./assets/bife.jpg"
+								class="card-img mt-2"
+								alt="Bife com Batata"
+							/>
+							<div class="card-body">
+								<h5 class="card-title">Bife com Batata</h5>
+								<p
+									class="card-text text-success"
+									style="font-weight: bold"
+								>
+									R$ 30,00
+								</p>
+								<div class="quantity buttons_added">
+									<input
+										type="button"
+										value="-"
+										class="minus"
+									/><input
+										type="number"
+										step="1"
+										min="0"
+										max=""
+										name="quantity"
+										value="0"
+										title="Qty"
+										class="input-text qty text"
+										size="4"
+										pattern=""
+										inputmode=""
+									/><input
+										type="button"
+										value="+"
+										class="plus"
+									/>
+								</div>
+							</div>
+						</div>
+						<div class="card shadow" style="width: 15rem">
+							<img
+								src="./assets/coxa.jpg"
+								class="card-img mt-2"
+								alt="Coxa de Frango"
+							/>
+							<div class="card-body">
+								<h5 class="card-title">
+									Coxa de Frango Crocante
+								</h5>
+								<p
+									class="card-text text-success"
+									style="font-weight: bold"
+								>
+									R$ 25,00
+								</p>
+								<div class="quantity buttons_added">
+									<input
+										type="button"
+										value="-"
+										class="minus"
+									/><input
+										type="number"
+										step="1"
+										min="0"
+										max=""
+										name="quantity"
+										value="0"
+										title="Qty"
+										class="input-text qty text"
+										size="4"
+										pattern=""
+										inputmode=""
+									/><input
+										type="button"
+										value="+"
+										class="plus"
+									/>
+								</div>
+							</div>
+						</div>
+						<div class="card shadow" style="width: 15rem">
+							<img
+								src="./assets/panela.jpg"
+								class="card-img mt-2"
+								alt="Carne de Panela"
+							/>
+							<div class="card-body">
+								<h5 class="card-title">Carne de Panela</h5>
+								<p
+									class="card-text text-success"
+									style="font-weight: bold"
+								>
+									R$ 22,00
+								</p>
+								<div class="quantity buttons_added">
+									<input
+										type="button"
+										value="-"
+										class="minus"
+									/><input
+										type="number"
+										step="1"
+										min="0"
+										max=""
+										name="quantity"
+										value="0"
+										title="Qty"
+										class="input-text qty text"
+										size="4"
+										pattern=""
+										inputmode=""
+									/><input
+										type="button"
+										value="+"
+										class="plus"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Acompranhamentos-->
+				<div
+					class="container rounded mt-5 shadow"
+					style="background-color: #f5f5f5"
+				>
+					<h3>Acompanhamentos</h3>
+					<p style="font-weight: bold">Porções para uma pessoa</p>
+
+					<div class="row justify-content-evenly pb-5">
+						<div class="card shadow" style="width: 15rem">
+							<img
+								src="./assets/farofa.jpg"
+								class="card-img mt-2"
+								alt="Farofa"
+							/>
+							<div class="card-body">
+								<h5 class="card-title">Farofa</h5>
+								<p
+									class="card-text text-success"
+									style="font-weight: bold"
+								>
+									R$ 10,00
+								</p>
+								<div class="quantity buttons_added">
+									<input
+										type="button"
+										value="-"
+										class="minus"
+									/><input
+										type="number"
+										step="1"
+										min="0"
+										max=""
+										name="quantity"
+										value="0"
+										title="Qty"
+										class="input-text qty text"
+										size="4"
+										pattern=""
+										inputmode=""
+									/><input
+										type="button"
+										value="+"
+										class="plus"
+									/>
+								</div>
+							</div>
+						</div>
+						<div class="card shadow" style="width: 15rem">
+							<img
+								src="./assets/salad.jpg"
+								class="card-img mt-2"
+								alt="Salada"
+							/>
+							<div class="card-body">
+								<h5 class="card-title">Salada</h5>
+								<p
+									class="card-text text-success"
+									style="font-weight: bold"
+								>
+									R$ 8,00
+								</p>
+								<div class="quantity buttons_added">
+									<input
+										type="button"
+										value="-"
+										class="minus"
+									/><input
+										type="number"
+										step="1"
+										min="0"
+										max=""
+										name="quantity"
+										value="0"
+										title="Qty"
+										class="input-text qty text"
+										size="4"
+										pattern=""
+										inputmode=""
+									/><input
+										type="button"
+										value="+"
+										class="plus"
+									/>
+								</div>
+							</div>
+						</div>
+						<div class="card shadow" style="width: 15rem">
+							<img
+								src="./assets/torresmo.jpg"
+								class="card-img mt-2"
+								alt="Torresmo"
+							/>
+							<div class="card-body">
+								<h5 class="card-title">Torresmo</h5>
+								<p
+									class="card-text text-success"
+									style="font-weight: bold"
+								>
+									R$ 12,00
+								</p>
+								<div class="quantity buttons_added">
+									<input
+										type="button"
+										value="-"
+										class="minus"
+									/><input
+										type="number"
+										step="1"
+										min="0"
+										max=""
+										name="quantity"
+										value="0"
+										title="Qty"
+										class="input-text qty text"
+										size="4"
+										pattern=""
+										inputmode=""
+									/><input
+										type="button"
+										value="+"
+										class="plus"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Form dos dados-->
+				<div
+					class="container shadow rounded mt-5 mb-3 p-3"
+					style="background-color: #f5f5f5"
+				>
+					<div class="row">
+						<div class="col">
+							<h3>Dados Pessoais</h3>
+						</div>
+					</div>
+
+					<div class="row g-3 text-start">
+						<div class="col-12 col-md-8 offset-md-2 mb-2">
+							<label for="nome" class="form-label">Nome</label>
+							<input
+								type="text"
+								class="form-control"
+								id="nome"
+								placeholder="Nome"
+							/>
+						</div>
+						<div class="col-12 col-md-8 offset-md-2 mb-2">
+							<label for="telefone" class="form-label"
+								>Telefone</label
 							>
-								Close
-							</button>
+							<input
+								type="text"
+								class="form-control"
+								id="telefone"
+								placeholder="Telefone"
+							/>
+						</div>
+						<div class="col-12 col-md-8 offset-md-2 mb-2">
+							<label for="email" class="form-label">Email</label>
+							<input
+								type="text"
+								class="form-control"
+								id="email"
+								placeholder="Email"
+							/>
+						</div>
+					</div>
+				</div>
+				<button
+					class="btn btn-primary mb-3"
+					style="width: 95%"
+					onclick="calcular()"
+					data-bs-toggle="modal"
+					data-bs-target="#modal"
+				>
+					Calcular
+				</button>
+
+				<!--Modal de Informações-->
+				<div class="modal" tabindex="-1" id="modal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="tittle-compra"></h5>
+								<button
+									type="button"
+									class="btn-close"
+									data-bs-dismiss="modal"
+									aria-label="Close"
+								></button>
+							</div>
+							<div class="modal-body">
+								<p>Sequem os dados do seu pedido</p>
+								<p>O seu pedido é</p>
+								<ul id="lista"></ul>
+								<b class="preco-final" id="preco-final">
+									Preço final: R$ 0,00
+								</b>
+							</div>
+							<div class="modal-footer">
+								<button
+									type="button"
+									class="btn btn-secondary"
+									data-bs-dismiss="modal"
+								>
+									Close
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--
-				<div class="info-compra" id="info-compra" hidden>
-					<div class="tittle-compra">
-						Caro <b id="tittle-compra">.....</b>
-					</div>
-					<p>Sequem os dados do seu pedido</p>
-					<p>O seu pedido é</p>
-					<ul id="lista"></ul>
-					<b class="preco-final" id="preco-final">
-						Preço final: R$ 0,00
-					</b>
-				</div>
-			-->
 		</div>
 		<!--Javasctip do bootstrap-->
 		<script
